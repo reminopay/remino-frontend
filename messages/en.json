@@ -1,0 +1,598 @@
+{
+  "SplashScreen": {
+    "text": "Please check the internet connection",
+    "retry": "Try again"
+  },
+  "NotFound": {
+    "message": "Page not found",
+    "button": "Back to main page"
+  },
+  "NewVersion": {
+    "text": "A new version is available.",
+    "button": "Update"
+  },
+  "ConnectionError": {
+    "message": "Please check the internet connection"
+  },
+  "BalanceError": {
+    "message": "No enough balance. Please charge your wallet first."
+  },
+  "SystemError": {
+    "message": "It seems that we have a problem. Please try again"
+  },
+  "NoConnectionComponent": {
+    "message": "Please check your internet connection",
+    "button": "Try again"
+  },
+  "BottomNavbar": {
+    "tab1": "Home",
+    "tab2": "Reports",
+    "tab3": "Send",
+    "tab4": "Services",
+    "tab5": "Profile"
+  },
+  "RialToTomanConvertor": {
+    "billion": "Billion",
+    "million": "Million",
+    "thousand": "thousand",
+    "zero": "Zero",
+    "and": "and",
+    "rials": "Rials",
+    "tomans": "Tomans"
+  },
+  "RialWallet": {
+    "country": "IRR",
+    "balance": "Balance",
+    "currency": "IRR"
+  },
+  "LiraWallet": {
+    "country": "TL",
+    "balance": "Balance",
+    "currency": "TL"
+  },
+  "DinarWallet": {
+    "country": "IRD",
+    "balance": "Balance",
+    "currency": "IRD"
+  },
+  "RubleWallet": {
+    "country": "RUB",
+    "balance": "Balance",
+    "currency": "RUB"
+  },
+  "AfghaniWallet": {
+    "country": "AF",
+    "balance": "Balance",
+    "currency": "AF"
+  },
+  "WalletActions": {
+    "action1": "Deposit",
+    "action2": "Convert",
+    "action3": "Withdraw"
+  },
+  "Onboarding": {
+    "title1": "World wide money transfer",
+    "text1": "Transfer any currency with low cost in a meaning time.",
+    "title2": "Online Exchange",
+    "text2": "Exchange your money quickly online.",
+    "button": "Get started"
+  },
+  "Login": {
+    "stepOneTitle": "Welcome!",
+    "stepOneText": "Please login to your account",
+    "inputTitle": "Phone number",
+    "inputHint": "Phone number is not valid.",
+    "button": "Continue",
+    "hint": "By signing up you agree to our {termsLink} and {privacyLink}",
+    "terms": "Terms and Conditions",
+    "policy": "Privacy Policy",
+    "caption1": "Fast money transfer across the world",
+    "caption2": "Transfer different currencies with low cost",
+    "stepTwoTitle": "Verification code",
+    "stepTwoText": "Please enter the verification code sent to {phone}",
+    "otpError": "Code is not valid.",
+    "resend": "Send Code again",
+    "resendCode": "Send code again in {countdown}",
+    "submitButton": "Login to Remino",
+    "caption3": "Transfer Fast and Secure",
+    "caption4": "We support you anytime, anywhere"
+  },
+  "Home": {
+    "header": "Home",
+    "exchangeRates": "Price List",
+    "seeAll": "View all",
+    "VerificationRequiredBottomSheet": {
+      "header": "ID verification",
+      "text": "For using this service you need to get verified in {country}.",
+      "closeButton": "Close",
+      "verifyButton": "Verify me"
+    }
+  },
+  "AccountVerification": {
+    "title": "ID Verification",
+    "text": "For using our service, Please verify your identity.",
+    "countries": "Country of residence",
+    "country1": "Iran",
+    "country2": "Turkey"
+  },
+  "IranVerificationForm": {
+    "header": "ID Verification",
+    "verified": "Your identity has been verified.",
+    "inputOneLabel": "First name",
+    "inputOnePlaceholder": "Enter your first name",
+    "inputTwoLabel": "Last name",
+    "inputTwoPlaceholder": "Enter your last name",
+    "inputThreeLabel": "ID number",
+    "inputThreePlaceholder": "Enter the 10 digits ID number",
+    "inputFourLabel": "Birthdate",
+    "inputFourPlaceholder": "--/--/----",
+    "button": "Verify Me",
+    "editButton": "Edit",
+    "birthdateButton": "Confirm"
+  },
+  "TurkeyVerificationForm": {
+    "header": "ID Verification",
+    "verified": "Your identity has been verified.",
+    "inputOneLabel": "Country of birth",
+    "inputTwoLabel": "First name",
+    "inputTwoPlaceholder": "Based on your ID card",
+    "inputThreeLabel": "Last name",
+    "inputThreePlaceholder": "Based on your ID card",
+    "inputFourLabel": "ID number",
+    "inputFourPlaceholder": "Enter the 11 digits ID number",
+    "inputFiveLabel": "Birthdate",
+    "inputFivePlaceholder": "--/--/----",
+    "button": "Next",
+    "editButton": "Edit",
+    "birthdateButton": "Confirm"
+  },
+  "ChooseCountry": {
+    "header": "Nationality",
+    "search": "Country",
+    "country1": "Iran",
+    "country2": "Turkey",
+    "country3": "Afghanistan"
+  },
+  "UploadDocumentsStart": {
+    "header": "ID verification",
+    "title": "ID card picture",
+    "text": "Please take a picture of your ID card and upload it.",
+    "description": "In the next step, you need to allow our application to access your phone camera.",
+    "button": "Start"
+  },
+  "UploadDocumentsFrontTake": {
+    "header": "ID verification",
+    "title1": "ID card picture",
+    "text1": "Please place the front side of your id card in front of the camera tap the “take picture” button.",
+    "title2": "Front side",
+    "text2": "Please make sure the card has been placed in the frame and all data are readable.",
+    "button": "Take picture",
+    "desktopTitle": "Please continue the process on your smart phone",
+    "desktopText": "Scan the QR code with your smart phone to continue",
+    "desktopButton1": "Download QR Scanner app",
+    "desktopButton2": "Back to the main page"
+  },
+  "UploadDocumentsFrontConfirm": {
+    "header": "ID verification",
+    "text": "Please make sure that data of your card is readable.",
+    "button1": "My data is readable",
+    "button2": "Try again"
+  },
+  "UploadDocumentsBackTake": {
+    "header": "ID verification",
+    "title1": "Other side",
+    "text1": "Please turn the card and take a picture of the back of your ID card.",
+    "title2": "Back of the card",
+    "text2": "Please make sure the card has been placed in the frame and all data are readable.",
+    "button": "Take picture"
+  },
+  "UploadDocumentsBackConfirm": {
+    "header": "ID verification",
+    "text": "Please make sure that data of your card is readable.",
+    "button1": "My data is readable",
+    "button2": "Try again"
+  },
+  "VerificationUnderReview": {
+    "header": "ID Verification",
+    "title": "Under review",
+    "text": "We’re reviewing your identity data. We will notify you with the result by sending an SMS.",
+    "button": "Guide"
+  },
+  "VerificationVerified": {
+    "header": "ID Verification",
+    "title": "Your identity has been verified.",
+    "text": "Your identification documents have been reviewed and approved for the country {country}.",
+    "ir": "Iran",
+    "tr": "Turkey",
+    "button": "Start using Remino"
+  },
+  "VerificationRejected": {
+    "header": "ID Verification",
+    "title": "We couldn’t verify your identity.",
+    "text": "Your identification documents were not approved for verification in the country {country}.",
+    "ir": "Iran",
+    "tr": "Turkey",
+    "button": "Edit your identity data"
+  },
+  "ExchangeRates": {
+    "header": "Price List",
+    "search": "Currency, ..."
+  },
+  "Transactions": {
+    "header": "Transactions",
+    "search": "Amount, Name, Transaction type ...",
+    "tab1": "All",
+    "tab2": "Deposit",
+    "tab3": "Withdraw",
+    "tab4": "Transfer",
+    "exchangeTransfer": "Send to",
+    "deposit": "Deposit",
+    "withdraw": "Withdraw",
+    "success": "Succeed",
+    "fail": "Failed",
+    "pending": "Pending",
+    "loadingTitle": "Loading",
+    "loadingText": "It takes a few moment",
+    "noTransactionTitle": "There’s no transaction record",
+    "noTransactionText": "You will see the list of your transactions here",
+    "noResultTitle": "No result",
+    "noResultText": "There’s no result based on your search"
+  },
+  "DepositFillAmount": {
+    "header": "Deposit",
+    "placeholder": "Amount",
+    "hint": " The amount should be between 50,000 to 50,000,000 IRR",
+    "button": "Next"
+  },
+  "P2P": {
+    "fillAmount": {
+      "header": "Send money",
+      "p2pTab": "Same currency",
+      "internationalTab": "International",
+      "wallet": "Wallet",
+      "balance": "Balance",
+      "inputPlaceholder": "Transfer Amount",
+      "amountHint": "Minimum amount should be 50,000 IRR",
+      "info": "Currently, sending the same currency only available for wallets",
+      "nextBtn": "Next"
+    },
+    "recipientInfo": {
+      "header": "Send to Wallet",
+      "amount": "Amount",
+      "phoneNumber": "Enter the recipient's phone number",
+      "nextBtn": "Next",
+      "invalidPhone": "Invalid phone number",
+      "sameSenderReceiver": "The recipient's phone number should not be the same as the sender's",
+      "notAUser": "The entered phone number is not a member of Remino",
+      "noBalance": "Your wallet balance is insufficient",
+      "confirmBottomSheet": {
+        "header": "Do you confirm the transfer?",
+        "recipientName": "Recipient Name",
+        "recipientPhone": "Recipient's Phone Number",
+        "amount": "Amount",
+        "wage": "Fee",
+        "cancelBtn": "Cancel",
+        "confirmBtn": "Final Confirmation"
+      }
+    }
+  },
+  "Settings": {
+    "header": "Settings",
+    "section1": "Account settings",
+    "verification": "ID verification",
+    "accManagement": "Account management",
+    "phoneNumbers": "My phone numbers",
+    "section2": "Support",
+    "help": "Help",
+    "section3": "Language",
+    "language": "Language",
+    "section4": "About Remino",
+    "terms": "Terms and Conditions",
+    "logout": "Logout"
+  },
+  "SettingsVerification": {
+    "header": "ID verification",
+    "title": "Country",
+    "country1": "Iran",
+    "country2": "Turkey",
+    "notVerified": "Not verified",
+    "underReview": "Under review ...",
+    "verified": "Verified",
+    "failed": "Rejected"
+  },
+  "SettingsCardManagement": {
+    "header": "Bank Account Management",
+    "addNewCard": "Add Bank Card",
+    "cardNumber": "Card Number",
+    "iban": "IBAN",
+    "addCard": {
+      "header": "Add New Card",
+      "cardNumber": "Card Number",
+      "cardNumberError": "Invalid Card Number",
+      "hint": "The bank account must be in the name of the SIM card owner",
+      "confirmBtn": "Continue"
+    }
+  },
+  "SettingsChangeLanguage": {
+    "header": "Language",
+    "title": "Choose your language",
+    "text": "Choose your preferred language for using Remino",
+    "lang1": "Persian",
+    "lang2": "English",
+    "lang3": "Turkish"
+  },
+  "ExchangeTransferFillAmount": {
+    "header": "Send money",
+    "balance": "Balance",
+    "inputOneLabel": "You pay",
+    "inputTwoLabel": "Recipient receive",
+    "hint": "Amount of transfer should be between 5,000,000 to 2,500,000,000 Rials.",
+    "reportItem1Title": "Exchange rate",
+    "reportItem2Title": "Convert fee",
+    "reportItem1Text": "1 {destination} = {rate} {origin}",
+    "balanceError": "No enough balance. Please charge your wallet first.",
+    "button": "Next"
+  },
+  "SelectCurrency": {
+    "header": "Select currency",
+    "search": "Currency, Country, ..."
+  },
+  "ExchangeTransferSelectRecipient": {
+    "header": "Send money",
+    "newTransfer": "New transfer",
+    "search": "IBAN, Country, Currency, Name ...",
+    "recent": "Recent destinations"
+  },
+  "ExchangeTransferRecipientInfoAccount": {
+    "header": "Send money",
+    "hintBox": "Amount",
+    "inputOneLabel": "IBAN",
+    "inputOnePlaceholder": "Enter only numbers",
+    "inputOneHint": "Enter 24 digits IBAN number",
+    "inputTwoLabel": "Recipient's name",
+    "inputTwoHint": "The recipient name should be matched with their ID",
+    "reason": "Reason of transfer",
+    "selectBox": "Please select one",
+    "button": "Next"
+  },
+  "TransactionDescriptions": {
+    "header": "Explanation",
+    "0": "Salary",
+    "1": "Insurance fee",
+    "2": "Medical payment",
+    "3": "Finance and stock market",
+    "4": "Exchange",
+    "5": "Due payment",
+    "6": "Retirement payment",
+    "7": "Movable affairs transactions",
+    "8": "Real estate transactions",
+    "9": "Cash management",
+    "10": "Customs duties",
+    "11": "Financial settlement",
+    "12": "Loan and instalments",
+    "13": "Governmental services",
+    "14": "Bail deposit",
+    "15": "Individual payment",
+    "16": "Charity",
+    "17": "Buying goods",
+    "18": "Buying a service"
+  },
+  "ExchangeTransferOtpConfirm": {
+    "header": "Send money",
+    "title": "Verification code",
+    "text": "Please enter the verification code sent to {phone}",
+    "otpError": "Code is not valid.",
+    "resend": "Send Code again",
+    "resendCode": "Send code again in {countdown}",
+    "submitButton": "Verify and continue",
+    "cancelButton": "Cancel"
+  },
+  "ExchangeTransferFinalConfirm": {
+    "header": "Send money",
+    "hintBox": "Amount",
+    "recipient": "Recipient",
+    "reason": "Reason of transfer",
+    "bank": "Destination Bank",
+    "paidAmount": "You'll pay",
+    "receivedAmount": "Receiver will get",
+    "wage": "Fee",
+    "confirmButton": "Confirm Transaction",
+    "confirmAndPayButton": "Confirm and pay",
+    "cancelButton": "Cancel",
+    "WalletAmountDifferenceComponent": {
+      "balance": "Your Balance",
+      "balanceError": "Not enough balance",
+      "pay": "You must pay"
+    }
+  },
+  "TransactionReceipt": {
+    "transactionStatus": {
+      "success": "Success",
+      "pending": "Pending",
+      "failed": "Failed"
+    },
+    "transferToAccount": {
+      "header": "Send to bank account",
+      "followUpStep1": "We got your request",
+      "followUpStep2": "Pay the amount",
+      "followUpStep3": "Convert IRR to TL",
+      "followUpStep4": "Send to bank account",
+      "transactionDetails": {
+        "header": "Transaction Details",
+        "status": "Status",
+        "amount": "Amount",
+        "conversionWage": "Convert fee",
+        "transferWage": "Transfer fee",
+        "convertedAmount": "Converted amount",
+        "rate": "Exchange rate",
+        "desc": "Explanation",
+        "sentToBank": "Sent to Ziraat Bank account",
+        "bank": "ZiraatBank Turkey",
+        "referenceNum": "Reference number",
+        "accType": "Account type",
+        "personal": "Personal",
+        "swift": "SWIFT / BIC",
+        "iban": "IBAN",
+        "downloadBtn": "Download receipt"
+      }
+    },
+    "deposit": {
+      "header": "Deposit",
+      "followUpStep1": "We got your request",
+      "followUpStep2": "Paid the amount",
+      "followUpStep3": "Deposit money to your balance",
+      "transactionDetails": {
+        "header": "Transaction Details",
+        "status": "Status",
+        "amount": "Amount",
+        "desc": "Explanation",
+        "bank": "{bankName} Bank",
+        "accType": "Account type",
+        "personal": "Personal",
+        "accOwner": "Account owner",
+        "cardNumber": "Card number",
+        "referenceNum": "Reference number",
+        "time": "Time",
+        "description": "Description"
+      }
+    },
+    "p2p": {
+      "header": "Transfer to wallet",
+      "followUpStep1": "We got your request",
+      "followUpStep2": "Paid the amount",
+      "followUpStep3": "Deposit money to your balance",
+      "transactionDetails": {
+        "header": "Transaction Details",
+        "status": "Status",
+        "amount": "Amount",
+        "desc": "Explanation",
+        "wallet": "Remino wallet",
+        "walletType": "Wallet type",
+        "personal": "Personal",
+        "accOwner": "Wallet owner name",
+        "withdrawTo": "To wallet",
+        "time": "Time",
+        "description": "Description"
+      }
+    },
+    "withdraw": {
+      "header": "Withdraw from Wallet",
+      "followUpStep1": "Submit Request",
+      "followUpStep2": "Confirm Payment",
+      "followUpStep3": "Deposit to Your Bank Account",
+      "transactionDetails": {
+        "header": "Transaction Details",
+        "status": "Transaction Status",
+        "amount": "Sent Amount",
+        "wage": "Fee",
+        "receivingAmount": "Amount after Fee Deduction",
+        "desc": "Transaction Description",
+        "accType": "Account Type",
+        "personal": "Personal",
+        "accOwner": "Account Owner Name",
+        "iban": "IBAN",
+        "referenceNum": "Tracking Code",
+        "time": "Time",
+        "description": "Description"
+      }
+    },
+    "followUpEstTime": "Est time",
+    "followUp": "Follow up",
+    "details": "Details",
+    "id": "Transaction ID",
+    "share": "Share",
+    "save": "Save"
+  },
+  "Convert": {
+    "header": "Convert",
+    "fillAmount": {
+      "originInputLabel": "Convert",
+      "walletBalance": "Your balance is {balance}",
+      "conversionWage": "Convert fee:",
+      "convertedAmount": "Total amount will be converted:",
+      "rate": "Exchange rate",
+      "destinationInputLabel": "To",
+      "button": "Convert {origin} to {destination}"
+    },
+    "confirm": {
+      "convert": "Convert",
+      "to": "To",
+      "rate": "{destination} price",
+      "paid": "You'll pay",
+      "conversionWage": "Convert fee",
+      "got": "You'll get",
+      "button": "Confirm and Convert"
+    }
+  },
+  "Services": {
+    "header": "Services",
+    "title": "There will be good",
+    "text": "New payment services will be added soon"
+  },
+  "ManagePhoneNumbers": {
+    "header": "My phone numbers",
+    "active": "Active number",
+    "activeDesc": "Verification codes for login and transactions will send to this number.",
+    "changeNumber": "Change number",
+    "setAsActive": "Set as active number",
+    "other": "Other",
+    "noOther": "You have no other phone number",
+    "button": "Add phone number",
+    "phoneAddedBottomSheet": {
+      "header": "Phone number added",
+      "text": "The number {phone} has been added to your profile.",
+      "button": "Got it"
+    },
+    "SelectCountry": {
+      "title": "Country",
+      "country1": "Iran",
+      "country2": "Turkey"
+    },
+    "AddPhoneNumber": {
+      "header": "Add phone number",
+      "inputLabel": "Phone number",
+      "inputHint": "Phone number is not valid.",
+      "button": "Send code",
+      "OtpConfirm": {
+        "title": "Verification code",
+        "text": "Please enter the verification code sent to {phone}",
+        "otpError": "Code is not valid.",
+        "resend": "Send Code again",
+        "resendCode": "Send code again in {countdown}",
+        "button": "Confirm"
+      }
+    }
+  },
+  "Withdraw": {
+    "fillAmount": {
+      "header": "Withdraw from wallet",
+      "wallet": "Wallet",
+      "balance": "Balance",
+      "inputPlaceholder": "Withdrawal Amount",
+      "amountHint": "The minimum withdrawal amount must be 100,000 Rials",
+      "confirmBtn": "Confirm and Continue",
+      "totalBalanceBtn": "Withdraw Total Balance"
+    },
+    "chooseCard": {
+      "header": "Withdraw from Wallet",
+      "inputTitle": "Select Your Bank Card",
+      "inputPlaceholder": "16-digit Card Number",
+      "youGet": "You Will Receive",
+      "confirm": "Confirm",
+      "chooseCard": "Select Bank Card",
+      "addNewCard": "Add New Bank Card",
+      "deleteCardHeader": "Do you want to delete this card?",
+      "cancelDelete": "Cancel",
+      "confirmDelete": "Yes, Delete",
+      "confirmBottomSheet": {
+        "header": "Withdraw from Wallet",
+        "withdrawTo": "Withdraw to {owner}'s card",
+        "time": "The amount will be credited to your account by 18:45 on the next business day at the latest.",
+        "amount": "Amount",
+        "wage": "Fee",
+        "confirmBtn": "Confirm and Withdraw",
+        "editBtn": "Edit"
+      }
+    }
+  }
+}

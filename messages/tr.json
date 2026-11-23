@@ -1,0 +1,602 @@
+{
+  "SplashScreen": {
+    "text": "Lütfen internet bağlantınızı kontrol edin",
+    "retry": "Yeniden dene"
+  },
+  "NotFound": {
+    "message": "Sayfa bulunamadı",
+    "button": "Ana sayfaya dön"
+  },
+  "NewVersion": {
+    "text": "Yeni bir sürüm mevcut.",
+    "button": "Güncelle"
+  },
+  "ConnectionError": {
+    "message": "Lütfen internet bağlantınızı kontrol edin"
+  },
+  "BalanceError": {
+    "message": "Yeterli bakiye yok. Lütfen önce cüzdanınızı doldurun."
+  },
+  "SystemError": {
+    "message": "Bir problem olduğunu gözüküyor. Lütfen tekrar deneyin"
+  },
+  "NoConnectionComponent": {
+    "message": "Lütfen internet bağlantınızı kontrol edin",
+    "button": "Tekrar dene"
+  },
+  "BottomNavbar": {
+    "tab1": "Ana Sayfa",
+    "tab2": "İşlemler",
+    "tab3": "Gönder",
+    "tab4": "Hizmetler",
+    "tab5": "Ayarlar"
+  },
+  "RialToTomanConvertor": {
+    "billion": "Milyar",
+    "million": "Milyon",
+    "thousand": "Bin",
+    "zero": "Sıfır",
+    "and": "ve",
+    "rials": "Riyal",
+    "tomans": "Toman"
+  },
+  "RialWallet": {
+    "country": "IRR",
+    "balance": "Bakiye",
+    "currency": "IRR"
+  },
+  "LiraWallet": {
+    "country": "TL",
+    "balance": "Bakiye",
+    "currency": "TL"
+  },
+  "DinarWallet": {
+    "country": "IRD",
+    "balance": "Bakiye",
+    "currency": "IRD"
+  },
+  "RubleWallet": {
+    "country": "RUB",
+    "balance": "Bakiye",
+    "currency": "RUB"
+  },
+  "AfghaniWallet": {
+    "country": "AF",
+    "balance": "Bakiye",
+    "currency": "AF"
+  },
+  "WalletActions": {
+    "action1": "Yatır",
+    "action2": "Dönüştür",
+    "action3": "Daha Fazla",
+    "action4": "Para Gönder",
+    "action5": "Çek"
+  },
+  "Onboarding": {
+    "title1": "Dünya çapında para transferi",
+    "text1": "Düşük maliyetle herhangi bir para birimini anında transfer edin.",
+    "title2": "Çevrimiçi Döviz",
+    "text2": "Paranızı hızlıca çevrimiçi dönüştürün.",
+    "button": "Başla"
+  },
+  "Login": {
+    "stepOneTitle": "Hoş Geldiniz!",
+    "stepOneText": "Lütfen hesabınıza giriş yapın",
+    "inputTitle": "Telefon numarası",
+    "inputHint": "Telefon numarası geçerli değil.",
+    "button": "Giriş",
+    "hint": "Kaydolarak, {termsLink} ve {privacyLink}'ni kabul etmiş olursunuz",
+    "terms": "",
+    "policy": "Şartlar ve koşullar",
+    "caption1": "Dünya çapında hızlı para transferi",
+    "caption2": "Düşük maliyetle farklı para birimlerini transfer edin",
+    "stepTwoTitle": "Doğrulama kodu",
+    "stepTwoText": "{phone} numarasına gönderilen doğrulama kodunu giriniz",
+    "otpError": "Kod geçerli değil.",
+    "resend": "Kodu tekrar gönder",
+    "resendCode": "Kodu tekrar {countdown} içinde gönder",
+    "submitButton": "Doğrula",
+    "caption3": "Hızlı ve Güvenli Transfer",
+    "caption4": "Her zaman, her yerde size destek oluyoruz"
+  },
+  "Home": {
+    "header": "Ana Sayfa",
+    "exchangeRates": "Fiyat Listesi",
+    "seeAll": "Tümünü Gör",
+    "VerificationRequiredBottomSheet": {
+      "header": "Kimlik doğrulaması",
+      "text": "Bu hizmeti kullanmak için {country}’da doğrulanmış olmanız gerekmektedir.",
+      "closeButton": "Kapat",
+      "verifyButton": "Beni doğrula"
+    }
+  },
+  "AccountVerification": {
+    "title": "Kimlik Doğrulaması",
+    "text": "Hizmetimizi kullanmak için lütfen kimliğinizi doğrulayın.",
+    "countries": "Yaşadığınız Ülke",
+    "country1": "İran",
+    "country2": "Türkiye"
+  },
+  "IranVerificationForm": {
+    "header": "Kimlik Doğrulaması",
+    "verified": "Kimliğiniz doğrulandı.",
+    "inputOneLabel": "Ad",
+    "inputOnePlaceholder": "Adınızı girin",
+    "inputTwoLabel": "Soyad",
+    "inputTwoPlaceholder": "Soyadınızı girin",
+    "inputThreeLabel": "Kimlik Numarası",
+    "inputThreePlaceholder": "10 haneli kimlik numarasını girin",
+    "inputFourLabel": "Doğum Tarihi",
+    "inputFourPlaceholder": "--/--/----",
+    "button": "Beni Doğrula",
+    "editButton": "Düzenle",
+    "birthdateButton": "Onayla"
+  },
+  "TurkeyVerificationForm": {
+    "header": "Kimlik Doğrulaması",
+    "verified": "Kimliğiniz doğrulandı.",
+    "inputOneLabel": "Doğum Yeri",
+    "inputTwoLabel": "Ad",
+    "inputTwoPlaceholder": "Kimlik kartınıza göre",
+    "inputThreeLabel": "Soyad",
+    "inputThreePlaceholder": "Kimlik kartınıza göre",
+    "inputFourLabel": "Kimlik Numarası",
+    "inputFourPlaceholder": "11 haneli kimlik numarasını girin",
+    "inputFiveLabel": "Doğum Tarihi",
+    "inputFivePlaceholder": "--/--/----",
+    "button": "İleri",
+    "editButton": "Düzenle",
+    "birthdateButton": "Onayla"
+  },
+  "ChooseCountry": {
+    "header": "Uyruk",
+    "search": "Ülke",
+    "country1": "İran",
+    "country2": "Türkiye",
+    "country3": "Afganistan"
+  },
+  "UploadDocumentsStart": {
+    "header": "Kimlik doğrulaması",
+    "title": "Kimlik kartı fotoğrafı",
+    "text": "Lütfen kimlik kartınızın bir fotoğrafını çekip yükleyin.",
+    "description": "Bir sonraki adımda, telefon kamerasına erişim izni vermeniz gerekecek.",
+    "button": "Başla"
+  },
+  "UploadDocumentsFrontTake": {
+    "header": "Kimlik doğrulaması",
+    "title1": "Kimlik kartı fotoğrafı",
+    "text1": "Lütfen kimlik kartınızın ön yüzünü kameraya yerleştirip 'fotoğraf çek' düğmesine dokunun.",
+    "title2": "Ön yüz",
+    "text2": "Lütfen kartın çerçeveye yerleştirildiğinden ve tüm verilerin okunabilir olduğundan emin olun.",
+    "button": "Fotoğrafı çek",
+    "desktopTitle": "Lütfen işlemi cep telefonunuzda devam ettirin",
+    "desktopText": "Devam etmek için cep telefonunuzla QR kodunu tarayın",
+    "desktopButton1": "QR Tarayıcı uygulamasını indirin",
+    "desktopButton2": "Ana sayfaya geri dön"
+  },
+  "UploadDocumentsFrontConfirm": {
+    "header": "Kimlik doğrulaması",
+    "text": "Lütfen kartınızın verilerinin okunabilir olduğundan emin olun.",
+    "button1": "Verilerim okunabilir",
+    "button2": "Tekrar dene"
+  },
+  "UploadDocumentsBackTake": {
+    "header": "Kimlik doğrulaması",
+    "title1": "Diğer yüz",
+    "text1": "Lütfen kartı çevirin ve kimlik kartınızın arka yüzünün bir fotoğrafını çekin.",
+    "title2": "Kartın arka yüzü",
+    "text2": "Lütfen kartın çerçeveye yerleştirildiğinden ve tüm verilerin okunabilir olduğundan emin olun.",
+    "button": "Fotoğrafı çek"
+  },
+  "UploadDocumentsBackConfirm": {
+    "header": "Kimlik doğrulaması",
+    "text": "Lütfen kartınızın verilerinin okunabilir olduğundan emin olun.",
+    "button1": "Verilerim okunabilir",
+    "button2": "Tekrar dene"
+  },
+  "VerificationUnderReview": {
+    "header": "Kimlik Doğrulaması",
+    "title": "İnceleniyor",
+    "text": "Kimlik verilerinizi inceliyoruz. Sonucu size bir SMS göndererek bildireceğiz.",
+    "button": "Kılavuz"
+  },
+  "VerificationVerified": {
+    "header": "Kimlik Doğrulaması",
+    "title": "Kimliğiniz doğrulandı.",
+    "text": "Kimlik belgeleriniz {country} için incelendi ve onaylandı.",
+    "ir": "İran",
+    "tr": "Türkiye",
+    "button": "Remino'yu kullanmaya başla"
+  },
+  "VerificationRejected": {
+    "header": "Kimlik Doğrulaması",
+    "title": "Kimliğinizi doğrulayamadık.",
+    "text": "Kimlik belgeleriniz {country} için doğrulanmadı.",
+    "ir": "İran",
+    "tr": "Türkiye",
+    "button": "Kimlik verilerinizi düzenleyin"
+  },
+  "ExchangeRates": {
+    "header": "Fiyat Listesi",
+    "search": "Para Birimi, ..."
+  },
+  "Transactions": {
+    "header": "İşlemler",
+    "search": "Tutar, İsim, İşlem türü ...",
+    "tab1": "Tümü",
+    "tab2": "Yatırma",
+    "tab3": "Çekme",
+    "tab4": "Transfer",
+    "exchangeTransfer": "Gönderim",
+    "deposit": "Yatırma",
+    "withdraw": "Çekme",
+    "success": "Başarılı",
+    "fail": "Başarısız",
+    "pending": "Beklemede",
+    "loadingTitle": "Yükleniyor",
+    "loadingText": "Birkaç dakika sürebilir",
+    "noTransactionTitle": "Henüz bir işlem kaydı yok",
+    "noTransactionText": "İşlemlerinizin listesini burada göreceksiniz",
+    "noResultTitle": "Sonuç yok",
+    "noResultText": "Aramanıza göre sonuç bulunamadı"
+  },
+  "DepositFillAmount": {
+    "header": "Yatırma",
+    "placeholder": "Tutar",
+    "hint": "Tutar 50.000 ila 50.000.000 IRR arasında olmalıdır",
+    "button": "İleri"
+  },
+  "P2P": {
+    "fillAmount": {
+      "header": "Para gönder",
+      "p2pTab": "Aynı para birimi",
+      "internationalTab": "Uluslararası",
+      "wallet": "Cüzdan",
+      "balance": "Bakiye",
+      "inputPlaceholder": "Transfer Tutarı",
+      "amountHint": "Minimum tutar 50.000 IRR olmalıdır",
+      "info": "Şu anda, aynı para birimi gönderme sadece cüzdanlar için mevcuttur",
+      "nextBtn": "İleri"
+    },
+    "recipientInfo": {
+      "header": "Cüzdana Transfer",
+      "amount": "Transfer Miktarı",
+      "phoneNumber": "Alıcının cep telefonu numarasını girin",
+      "nextBtn": "Devam",
+      "invalidPhone": "Geçersiz cep telefonu numarası",
+      "sameSenderReceiver": "Alıcının telefon numarası gönderenle aynı olmamalıdır",
+      "notAUser": "Girilen telefon numarası Ramino üyesi değil",
+      "noBalance": "Cüzdan bakiyeniz yetersiz",
+      "confirmBottomSheet": {
+        "header": "Transferi onaylıyor musunuz?",
+        "recipientName": "Alıcı Adı",
+        "recipientPhone": "Alıcının Telefon Numarası",
+        "amount": "Miktar",
+        "wage": "Ücret",
+        "cancelBtn": "İptal",
+        "confirmBtn": "Son Onay"
+      }
+    }
+  },
+  "Settings": {
+    "header": "Ayarlar",
+    "section1": "Hesap ayarları",
+    "verification": "Kimlik doğrulaması",
+    "accManagement": "Hesap yönetimi",
+    "phoneNumbers": "Telefon numaralarım",
+    "section2": "Destek",
+    "help": "Yardım",
+    "section3": "Dil",
+    "language": "Dil",
+    "section4": "Remino Hakkında",
+    "terms": "Koşullar ve Şartlar",
+    "logout": "Çıkış"
+  },
+  "SettingsVerification": {
+    "header": "Kimlik Doğrulaması",
+    "title": "Ülke",
+    "country1": "İran",
+    "country2": "Türkiye",
+    "notVerified": "Doğrulanmadı",
+    "underReview": "İnceleniyor...",
+    "verified": "Doğrulandı",
+    "failed": "Reddedildi"
+  },
+  "SettingsCardManagement": {
+    "header": "Banka Hesabı Yönetimi",
+    "addNewCard": "Banka Kartı Ekle",
+    "cardNumber": "Kart Numarası",
+    "iban": "IBAN",
+    "addCard": {
+      "header": "Yeni Kart Ekle",
+      "cardNumber": "Kart Numarası",
+      "cardNumberError": "Geçersiz Kart Numarası",
+      "hint": "Banka hesabı SIM kart sahibinin adına olmalıdır",
+      "confirmBtn": "Devam"
+    }
+  },
+  "SettingsChangeLanguage": {
+    "header": "Dil",
+    "title": "Dil Seçin",
+    "text": "Remino'yu kullanmak için tercih ettiğiniz dili seçin",
+    "lang1": "Farsça",
+    "lang2": "İngilizce",
+    "lang3": "Türkçe"
+  },
+  "ExchangeTransferFillAmount": {
+    "header": "Para gönderme",
+    "p2pTab": "Aynı para birimi",
+    "internationalTab": "Uluslararası",
+    "inputOneLabel": "Siz ödersiniz",
+    "inputTwoLabel": "Alıcı alır",
+    "hint": "Transfer tutarı 5.000.000 ila 2.500.000.000 Riyal arasında olmalıdır.",
+    "reportItem1Title": "Döviz kuru",
+    "reportItem2Title": "Dönüştürme ücreti",
+    "reportItem3Title": "Transfer ücreti",
+    "reportItem4Title": "Toplam ücretler",
+    "conversionWage": "Dönüştürme ücreti miktarın %2'sidir.",
+    "transferWage": "Transfer ücreti miktarın %3'üdür.",
+    "bottomSheetButton": "Anladım",
+    "reportItem1Text": "1 {destination} = {rate} {origin}",
+    "reportItem2Text": "{conversionWage}",
+    "reportItem3Text": "{transferWage}",
+    "reportItem4Text": "{totalWage}",
+    "button": "İleri",
+    "balanceError": "Yeterli bakiye yok. Lütfen önce cüzdanınıza para yatırın."
+  },
+  "SelectCurrency": {
+    "header": "Para birimini seçin",
+    "search": "Para Birimi, Ülke, ..."
+  },
+  "ExchangeTransferSelectRecipient": {
+    "header": "Para gönderme",
+    "newTransfer": "Yeni transfer",
+    "search": "IBAN, Ülke, Para Birimi, İsim ...",
+    "recent": "Son alıcılar"
+  },
+  "ExchangeTransferRecipientInfoAccount": {
+    "header": "Para gönderme",
+    "hintBox": "Tutar",
+    "inputOneLabel": "IBAN",
+    "inputOnePlaceholder": "Sadece rakamları girin",
+    "inputOneHint": "24 haneli IBAN numarasını girin",
+    "inputTwoLabel": "Alıcının adı",
+    "inputTwoHint": "Alıcının adı kimlik belgesiyle eşleşmelidir",
+    "inputThreeLabel": "Alıcı Kimlik Numarası",
+    "inputThreeHint": "11 haneli kimlik numarasını (kimlik numarası) girin",
+    "idCard": "Kimlik kartı resmi",
+    "idCardUpload": "Fotoğraf Yükle",
+    "idCardHint": "PNG veya JPEG (maksimum dosya boyutu: 8MB)",
+    "button": "İleri"
+  },
+  "ExchangeTransferTransactionDesc": {
+    "header": "Para gönderme",
+    "hintBox": "Tutar",
+    "recipient": "Alıcı",
+    "reason": "Transfer nedeni",
+    "selectBox": "Lütfen birini seçin",
+    "button": "Doğrulama kodunu gönder"
+  },
+  "TransactionDescriptions": {
+    "header": "Açıklama",
+    "0": "Maaş",
+    "1": "Sigorta ücreti",
+    "2": "Tıbbi ödeme",
+    "3": "Finans ve borsa",
+    "4": "Döviz",
+    "5": "Ödeme",
+    "6": "Emeklilik ödemesi",
+    "7": "Taşınır işlemler",
+    "8": "Gayrimenkul işlemleri",
+    "9": "Nakit yönetimi",
+    "10": "Gümrük vergileri",
+    "11": "Finansal uzlaşma",
+    "12": "Kredi ve taksitler",
+    "13": "Devlet hizmetleri",
+    "14": "Kefalet yatırımı",
+    "15": "Bireysel ödeme",
+    "16": "Hayır",
+    "17": "Mal alımı",
+    "18": "Hizmet satın alma"
+  },
+  "ExchangeTransferOtpConfirm": {
+    "header": "Para gönderme",
+    "title": "Doğrulama kodu",
+    "text": "{phone} numarasına gönderilen doğrulama kodunu giriniz",
+    "otpError": "Kod geçerli değil.",
+    "resend": "Kodu tekrar gönder",
+    "resendCode": "{countdown} içinde kodu tekrar gönder",
+    "submitButton": "Doğrula ve devam et",
+    "cancelButton": "İptal"
+  },
+  "ExchangeTransferFinalConfirm": {
+    "header": "Para gönderme",
+    "hintBox": "Tutar",
+    "recipient": "Alıcı",
+    "reason": "Transfer nedeni",
+    "bank": "Hedef Banka",
+    "paidAmount": "Ödeyeceğiniz miktar",
+    "receivedAmount": "Alıcıya ulaşacak miktar",
+    "conversionWage": "Dönüştürme ücreti",
+    "transferWage": "Transfer ücreti",
+    "confirmButton": "İşlemi Onayla",
+    "confirmAndPayButton": "Onayla ve öde",
+    "cancelButton": "İptal",
+    "WalletAmountDifferenceComponent": {
+      "balance": "Bakiyeniz",
+      "balanceError": "Yetersiz bakiye",
+      "pay": "Ödemeniz gerekiyor"
+    }
+  },
+  "TransactionReceipt": {
+    "transactionStatus": {
+      "success": "Başarılı",
+      "pending": "Beklemede",
+      "failed": "Başarısız"
+    },
+    "transferToAccount": {
+      "header": "Banka hesabına gönder",
+      "followUpStep1": "İsteğinizi aldık",
+      "followUpStep2": "Miktarı öde",
+      "followUpStep3": "IRR'yi TL'ye çevir",
+      "followUpStep4": "Banka hesabına gönder",
+      "transactionDetails": {
+        "header": "İşlem Detayları",
+        "status": "Durum",
+        "amount": "Miktar",
+        "conversionWage": "Dönüştürme ücreti",
+        "transferWage": "Transfer ücreti",
+        "convertedAmount": "Dönüştürülen miktar",
+        "rate": "Döviz kuru",
+        "desc": "Açıklama",
+        "sentToBank": "Ziraat Bankası hesabına gönderildi",
+        "bank": "ZiraatBank Türkiye",
+        "referenceNum": "Referans numarası",
+        "accType": "Hesap türü",
+        "personal": "Kişisel",
+        "swift": "SWIFT / BIC",
+        "iban": "IBAN",
+        "downloadBtn": "Fişi İndir"
+      }
+    },
+    "deposit": {
+      "header": "Bakiye Artırma",
+      "followUpStep1": "Talebi Kaydet",
+      "followUpStep2": "Ödeme Yap",
+      "followUpStep3": "Bakiye Artırma",
+      "transactionDetails": {
+        "header": "İşlem Detayları",
+        "status": "İşlem Durumu",
+        "amount": "Miktar",
+        "desc": "İşlem Açıklaması",
+        "bank": "{bankName} Bankası",
+        "accType": "Hesap Türü",
+        "personal": "Bireysel",
+        "accOwner": "Hesap Sahibinin Adı",
+        "cardNumber": "Kart Numarası",
+        "referenceNum": "Referans Numarası",
+        "time": "Zaman",
+        "description": "Açıklama"
+      }
+    },
+    "withdraw": {
+      "header": "Cüzdandan Para Çekme",
+      "followUpStep1": "Talep Gönder",
+      "followUpStep2": "Ödemeyi Onayla",
+      "followUpStep3": "Banka Hesabınıza Yatırma",
+      "transactionDetails": {
+        "header": "İşlem Detayları",
+        "status": "İşlem Durumu",
+        "amount": "Gönderilen Tutar",
+        "wage": "Ücret",
+        "receivingAmount": "Ücret Kesintisinden Sonra Tutar",
+        "desc": "İşlem Açıklaması",
+        "accType": "Hesap Türü",
+        "personal": "Bireysel",
+        "accOwner": "Hesap Sahibinin Adı",
+        "iban": "IBAN",
+        "referenceNum": "Takip Kodu",
+        "time": "Zaman",
+        "description": "Açıklama"
+      }
+    },
+    "followUpEstTime": "Tahmini süre",
+    "followUp": "Takip et",
+    "details": "Detaylar",
+    "id": "İşlem Kimliği",
+    "share": "Paylaş",
+    "save": "Kaydet"
+  },
+  "Convert": {
+    "header": "Dönüştür",
+    "fillAmount": {
+      "originInputLabel": "Dönüştür",
+      "walletBalance": "Bakiyeniz {balance}",
+      "conversionWage": "Dönüştürme ücreti:",
+      "convertedAmount": "Toplam tutar dönüştürülecek:",
+      "rate": "Döviz kuru",
+      "destinationInputLabel": "Hedef",
+      "button": "{origin} {destination}'a dönüştür"
+    },
+    "confirm": {
+      "convert": "Dönüştür",
+      "to": "Hedef",
+      "rate": "{destination} fiyatı",
+      "paid": "Ödeyeceğiniz miktar",
+      "conversionWage": "Dönüştürme ücreti",
+      "got": "Alacağınız miktar",
+      "button": "Onayla ve Dönüştür"
+    }
+  },
+  "Services": {
+    "header": "Hizmetler",
+    "title": "İyi olacak",
+    "text": "Yakında yeni ödeme hizmetleri eklenecek"
+  },
+  "ManagePhoneNumbers": {
+    "header": "Telefon Numaralarım",
+    "active": "Aktif numara",
+    "activeDesc": "Giriş ve işlemler için doğrulama kodları bu numaraya gönderilecek.",
+    "changeNumber": "Numarayı değiştir",
+    "setAsActive": "Aktif numara olarak ayarla",
+    "other": "Diğer",
+    "noOther": "Başka telefon numaranız bulunmamaktadır",
+    "button": "Telefon numarası ekle",
+    "phoneAddedBottomSheet": {
+      "header": "Telefon numarası eklendi",
+      "text": "{phone} numarası profilinize eklenmiştir.",
+      "button": "Anladım"
+    },
+    "SelectCountry": {
+      "title": "Ülke",
+      "country1": "İran",
+      "country2": "Türkiye"
+    },
+    "AddPhoneNumber": {
+      "header": "Telefon numarası ekle",
+      "inputLabel": "Telefon numarası",
+      "inputHint": "Telefon numarası geçerli değil.",
+      "button": "Kodu gönder",
+      "OtpConfirm": {
+        "title": "Doğrulama kodu",
+        "text": "Lütfen {phone} numarasına gönderilen doğrulama kodunu girin",
+        "otpError": "Kod geçerli değil.",
+        "resend": "Kodu tekrar gönder",
+        "resendCode": "Kodu {countdown} içinde tekrar gönder",
+        "button": "Onayla"
+      }
+    }
+  },
+  "Withdraw": {
+    "fillAmount": {
+      "header": "Cüzdandan Çekme",
+      "wallet": "Cüzdan",
+      "balance": "Bakiye",
+      "inputPlaceholder": "Çekilecek Tutar",
+      "amountHint": "Minimum çekim tutarı 50,000 Riyal olmalıdır",
+      "confirmBtn": "Onayla ve Devam Et",
+      "totalBalanceBtn": "Toplam Bakiyeyi Çek"
+    },
+    "chooseCard": {
+      "header": "Cüzdandan Çekme",
+      "inputTitle": "Banka Kartınızı Seçin",
+      "inputPlaceholder": "16 haneli Kart Numarası",
+      "youGet": "Alacağınız Tutar",
+      "confirm": "Onayla",
+      "chooseCard": "Banka Kartını Seç",
+      "addNewCard": "Yeni Banka Kartı Ekle",
+      "deleteCardHeader": "Bu kartı silmek istiyor musunuz?",
+      "cancelDelete": "İptal",
+      "confirmDelete": "Evet, Sil",
+      "confirmBottomSheet": {
+        "header": "Cüzdandan Çekme",
+        "withdrawTo": "{owner}'ın kartına çek",
+        "time": "Tutar en geç ertesi iş günü saat 18:45'e kadar hesabınıza yatırılacaktır.",
+        "amount": "Tutar",
+        "wage": "Ücret",
+        "confirmBtn": "Onayla ve Çek",
+        "editBtn": "Düzenle"
+      }
+    }
+  }
+}

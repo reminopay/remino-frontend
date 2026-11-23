@@ -1,0 +1,195 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #efefef;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #929490;
+  border-radius: 5px;
+  transition: ease-in 1s;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #7d7f7b;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+  background-color: #f7f8fd;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.input_base {
+  width: 100%;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 16px;
+  font-size: 14px;
+  font-weight: normal;
+  transition: ease-in 0.3s;
+  border: 1px solid #b4b5b3;
+  border-radius: 5px;
+}
+
+.input_base::placeholder {
+  color: #cccccc;
+}
+
+.input_base:hover {
+  border-color: #7d7f7b;
+}
+
+.input_base:focus {
+  outline: none;
+  border-color: #1f6be0;
+}
+
+.input_base:disabled {
+  border-color: #efefef;
+  background-color: #e9f0fc;
+  color: #b4b5b3;
+}
+
+.input_base:disabled::placeholder {
+  color: #b4b5b3;
+}
+
+.input_filled {
+  border-color: #7d7f7b;
+  color: #272826;
+}
+
+.input_invalid {
+  border-color: #f2194a;
+  color: #ac1235;
+}
+
+.input_invalid:hover {
+  border-color: #ac1235;
+}
+
+.input_invalid:focus {
+  border-color: #f2194a;
+}
+
+.half-height {
+  height: fit-content !important;
+  max-height: calc(100% - env(safe-area-inset-top) - 50px) !important;
+  overflow-y: auto !important;
+}
+
+.full-height {
+  height: calc(100% - env(safe-area-inset-top) - 34px) !important;
+  overflow-y: auto !important;
+}
+
+.swiper-slide {
+  display: flex !important;
+  justify-content: center;
+}
+
+.swiper-button-prev {
+  display: none !important;
+}
+
+.swiper-button-next {
+  display: none !important;
+}
+
+.css-1m8qzkt {
+  max-height: 300px !important;
+}
+
+.css-qmbtae {
+  width: 40px !important;
+}
+
+.css-7qlbje {
+  right: 0 !important;
+}
+
+.css-11ydt2g {
+  justify-content: space-evenly !important;
+}
+
+.zm-DaysButton {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+@media screen and (min-width: 768px) {
+  .swiper-button-prev {
+    display: block !important;
+  }
+
+  .swiper-button-next {
+    display: block !important;
+  }
+}
+
+.swiper-slide-prev,
+.swiper-slide-next {
+  width: 32px;
+}
+
+.bouncing-loader {
+  display: flex;
+  justify-content: center;
+}
+
+.bouncing-loader > div {
+  width: 10px;
+  height: 10px;
+  margin: 4px;
+  border-radius: 50%;
+  background-color: #1f6be0;
+  opacity: 1;
+  animation: bouncing-loader 0.5s infinite alternate;
+}
+
+@keyframes bouncing-loader {
+  to {
+    opacity: 0.5;
+    /*transform: translateY(-12px);*/
+  }
+}
+
+.bouncing-loader > div:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.bouncing-loader > div:nth-child(3) {
+  animation-delay: 0.2s;
+}

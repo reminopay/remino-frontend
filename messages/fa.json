@@ -1,0 +1,593 @@
+{
+  "SplashScreen": {
+    "text": "اتصال اینترنت را بررسی کنید و دوباره وارد شوید",
+    "retry": "تلاش دوباره"
+  },
+  "NotFound": {
+    "message": "صفحه مورد نظر موجود نیست",
+    "button": "بازگشت به صفحه اصلی"
+  },
+  "NewVersion": {
+    "text": "یک نسخه جدید موجود است.",
+    "button": "بروزرسانی"
+  },
+  "ConnectionError": {
+    "message": "اتصال اینترنت را بررسی کنید"
+  },
+  "BalanceError": {
+    "message": "موجودی کافی نیست. لطفا ابتدا کیف پول خود را شارژ کنید."
+  },
+  "SystemError": {
+    "message": "مشکلی به وجود آمده، لطفا دوباره تلاش کنید"
+  },
+  "NoConnectionComponent": {
+    "message": "اتصال اینترنت را بررسی و دوباره تلاش کنید",
+    "button": "تلاش دوباره"
+  },
+  "BottomNavbar": {
+    "tab1": "خانه",
+    "tab2": "گزارش‌ها",
+    "tab3": "انتقال ارز",
+    "tab4": "خدمات",
+    "tab5": "حساب کاربری"
+  },
+  "RialToTomanConvertor": {
+    "billion": "میلیارد",
+    "million": "میلیون",
+    "thousand": "هزار",
+    "zero": "صفر",
+    "and": "و",
+    "rials": "ریال",
+    "tomans": "تومان"
+  },
+  "RialWallet": {
+    "text": "کیف پول ریال ایران"
+  },
+  "LiraWallet": {
+    "text": "کیف پول لیر ترکیه"
+  },
+  "DinarWallet": {
+    "country": "کیف پول دینار عراق"
+  },
+  "RubleWallet": {
+    "country": "کیف پول روبل روسیه"
+  },
+  "AfghaniWallet": {
+    "country": "کیف پول افغانی افغانستان"
+  },
+  "WalletActions": {
+    "action1": "افزایش موجودی",
+    "action2": "انتقال ارز",
+    "action3": "برداشت"
+  },
+  "Onboarding": {
+    "title1": "انتقال بین المللی ارز",
+    "text1": "فرآیند تبدیل ارز به کشورها را به صورت آنلاین، در کمترین زمان ممکن و با مناسب‌ترین کارمزد انجام دهید.",
+    "title2": "صرافی آنلاین",
+    "text2": "بدون نیاز به مراجعه حضوری به صرافی‌ها و در کمترین زمان ممکن، فرآیند تبدیل ارز را انجام دهید. ",
+    "button": "همین الان شروع کنید"
+  },
+  "Login": {
+    "stepOneTitle": "خوش آمدید!",
+    "stepOneText": "برای استفاده از خدمات و امکانات رمینو وارد شوید",
+    "inputTitle": "شماره تلفن همراه",
+    "inputHint": "شماره تلفن همراه نامعتبر است",
+    "button": "ادامه",
+    "hint": "استفاده از رمینو به معنی پذیرش {privacyLink} این سرویس است.",
+    "terms": "",
+    "policy": "قوانین و مقررات",
+    "caption1": "انتقال سریع پول بین کشورها",
+    "caption2": "انواع ارز را با کمترین کارمزد جا به جا کنید",
+    "stepTwoTitle": "کد تایید را وارد کنید",
+    "stepTwoText": "کد تایید به شماره تلفن همراه {phone} پیامک شد",
+    "editNumber": "(ویرایش شماره)",
+    "otpError": "کد وارد شده نامعتبر است",
+    "didNotReceive": "کد را دریافت نکردید؟",
+    "resend": "ارسال مجدد",
+    "remainingTime": "زمان باقی مانده:",
+    "submitButton": "ورود به رمینو",
+    "caption3": "نقل و انتقال سریع و ایمن",
+    "caption4": "پاسخگوی تمام نیاز های معاملی شما در سراسر دنیا"
+  },
+  "Home": {
+    "header": "خانه",
+    "exchangeRates": "نرخ لحظه‌ای",
+    "seeAll": "مشاهده همه",
+    "VerificationRequiredBottomSheet": {
+      "header": "احراز هویت",
+      "text": "برای استفاده از این خدمت رمینو ابتدا احراز هویت مربوط به کشور {country} خود را تکمیل کنید.",
+      "closeButton": "بستن",
+      "verifyButton": "احراز هویت"
+    }
+  },
+  "AccountVerification": {
+    "title": "احراز هویت",
+    "text": "برای استفاده از امکانات رمینو مراحل احراز هویت را تکمیل کنید.",
+    "countries": "کشور محل زندگی",
+    "country1": "ایران",
+    "country2": "ترکیه"
+  },
+  "IranVerificationForm": {
+    "header": "احراز هویت",
+    "verified": "اطلاعات هویتی شما تایید شده است.",
+    "inputOneLabel": "نام",
+    "inputOnePlaceholder": "نام درج شده برروی کارت ملی",
+    "inputTwoLabel": "نام خانوادگی",
+    "inputTwoPlaceholder": "نام خانوادگی درج شده برروی کارت ملی",
+    "inputThreeLabel": "شماره ملی",
+    "inputThreePlaceholder": "شماره ملی 10 رقمی خود را وارد کنید",
+    "inputFourLabel": "تاریخ تولد",
+    "inputFourPlaceholder": "--/--/----",
+    "button": "بررسی و احراز",
+    "editButton": "ویرایش اطلاعات",
+    "birthdateButton": "تائید"
+  },
+  "TurkeyVerificationForm": {
+    "header": "احراز هویت",
+    "verified": "اطلاعات هویتی شما تایید شده است.",
+    "inputOneLabel": "تابعیت",
+    "inputTwoLabel": "نام (به انگلیسی)",
+    "inputTwoPlaceholder": "نام درج شده برروی کارت شناسایی",
+    "inputThreeLabel": "نام خانوادگی (به انگلیسی)",
+    "inputThreePlaceholder": "نام خانوادگی درج شده برروی کارت شناسایی",
+    "inputFourLabel": "شماره کارت شناسایی (kimlik numarası)",
+    "inputFourPlaceholder": "شماره 11 رقمی کارت شناسایی خود را وارد کنید",
+    "inputFiveLabel": "تاریخ تولد (doğum tarihi)",
+    "inputFivePlaceholder": "--/--/----",
+    "button": "ادامه",
+    "editButton": "ویرایش اطلاعات",
+    "birthdateButton": "تایید"
+  },
+  "ChooseCountry": {
+    "header": "تابعیت",
+    "search": "نام کشور",
+    "country1": "ایران",
+    "country2": "ترکیه",
+    "country3": "افغانستان"
+  },
+  "UploadDocumentsStart": {
+    "header": "احراز هویت",
+    "title": "تصویر کارت اقامت کشور ترکیه",
+    "text": "برای ادامه احراز هویت لازم است تا تصویر کارت اقامت خود را ثبت و بارگذاری کنید.",
+    "description": "در مرحله بعد برای ثبت تصویر، لازم است تا به اپلیکیشن اجازه استفاده از دوربین گوشی را بدهید.",
+    "button": "شروع"
+  },
+  "UploadDocumentsFrontTake": {
+    "header": "احراز هویت",
+    "title1": "تصویر کارت اقامت",
+    "text1": "کارت اقامت کشور ترکیه خود را مقابل دوربین قرار دهید طوری که کاملا در کادر قرار گیرد.",
+    "title2": "روی کارت",
+    "text2": "دقت کنید که کارت به درستی در کادر قرار گیرد و اطلاعات کارت قابل مشاهده و خوانا باشد.",
+    "button": "ثبت تصویر",
+    "desktopTitle": "لطفا فرآیند احراز هویت را با گوشی هوشمند خود ادامه دهید",
+    "desktopText": "برای ادامه فرآیند احراز هویت لطفا کد زیر را توسط دوربین گوشی یا برنامه‌های اسکن QR روی تلفن هوشمند خود اسکن کنید.",
+    "desktopButton1": "دانلود  اپلیکیشن QR اسکنر",
+    "desktopButton2": "بازگشت به صفحه اصلی"
+  },
+  "UploadDocumentsFrontConfirm": {
+    "header": "احراز هویت",
+    "text": "مطمئن شوید که اطلاعات روی کارت واضح و قابل خواندن است",
+    "button1": "اطلاعات من واضح و خوانا است",
+    "button2": "دوباره تلاش کنید"
+  },
+  "UploadDocumentsBackTake": {
+    "header": "احراز هویت",
+    "title1": "تصویر پشت کارت اقامت",
+    "text1": "کارت را برگردانید و طرف دیگر آن را مقابل دوربین قرار دهید طوری که کاملا در کادر قرار گیرد.",
+    "title2": "پشت کارت",
+    "text2": "دقت کنید که کارت به درستی در کادر قرار گیرد و اطلاعات کارت قابل مشاهده و خوانا باشد.",
+    "button": "ثبت تصویر"
+  },
+  "UploadDocumentsBackConfirm": {
+    "header": "احراز هویت",
+    "text": "مطمئن شوید که اطلاعات روی کارت واضح و قابل خواندن است",
+    "button1": "اطلاعات من واضح و خوانا است",
+    "button2": "دوباره تلاش کنید"
+  },
+  "VerificationUnderReview": {
+    "header": "احراز هویت",
+    "title": "در حال بررسی اطلاعات هویتی",
+    "text1": "اطلاعات هویتی شما در دست بررسی است.",
+    "text2": "پس از تایید اطلاعات، حساب شما فعال و نتیجه از طریق پیامک اطلاع رسانی خواهد شد.",
+    "button": "راهنما"
+  },
+  "VerificationVerified": {
+    "header": "احراز هویت",
+    "title": "احراز هویت شما تکمیل شد.",
+    "text": "اطلاعات هویتی شما برای کشور {country} بررسی و تایید شد.",
+    "ir": "ایران",
+    "tr": "ترکیه",
+    "button": "بازگشت به خانه"
+  },
+  "VerificationRejected": {
+    "header": "احراز هویت",
+    "title": "مشکل در احراز هویت",
+    "text": "مدارک هویتی شما برای احراز در کشور {country} تایید نشد.",
+    "ir": "ایران",
+    "tr": "ترکیه",
+    "button": "ویرایش اطلاعات هویتی"
+  },
+  "ExchangeRates": {
+    "header": "نرخ لحظه‌ای",
+    "search": "نام ارز و ..."
+  },
+  "Transactions": {
+    "header": "گزارش‌ها",
+    "search": "مبلغ، نام، عنوان تراکنش و ...",
+    "tab1": "همه",
+    "tab2": "واریز",
+    "tab3": "برداشت",
+    "tab4": "انتقال",
+    "exchangeTransfer": "انتقال به",
+    "deposit": "افزایش موجودی",
+    "withdraw": "برداشت از حساب",
+    "success": "موفق",
+    "fail": "ناموفق",
+    "pending": "در حال انجام",
+    "loadingTitle": "لطفا شکیبا باشید",
+    "loadingText": "تا لحظاتی دیگر, سابقه تراکنش ها به شما نمایش داده خواهد شد",
+    "noTransactionTitle": "در حال حاضر هیچ تراکنشی انجام نشده است",
+    "noTransactionText": "در صورت انجام تراکنش، سابقه آن در اینجا نمایش داده خواهد شد",
+    "noResultTitle": "نتیجه ای پیدا نشد",
+    "noResultText": "با پلتفرم رمینو می توانید به دوستان خود پول انتقال دهید "
+  },
+  "DepositFillAmount": {
+    "header": "افزایش موجودی",
+    "placeholder": "مبلغ واریزی",
+    "hint": "مبلغ واریزی باید بین 10 هزار تومان و 50 میلیون تومان باشد.",
+    "button": "ادامه"
+  },
+  "P2P": {
+    "fillAmount": {
+      "header": "ارسال ارز",
+      "p2pTab": "انتقال بدون تبدیل",
+      "internationalTab": "تبدیل و انتقال",
+      "wallet": "کیف پول",
+      "balance": "موجودی",
+      "inputPlaceholder": "مبلغ انتقال",
+      "amountHint": "حداقل مبلغ قابل انتقال باید 50,000 ریال باشد",
+      "info": "در حال حاضر انتقال بدون تبدیل تنها از طریق کیف پول است",
+      "nextBtn": "ادامه"
+    },
+    "recipientInfo": {
+      "header": "انتقال به کیف پول",
+      "amount": "مبلغ انتقال",
+      "phoneNumber": "شماره تلفن همراه گیرنده را وارد کنید",
+      "nextBtn": "ادامه",
+      "invalidPhone": "شماره تلفن همراه نامعتبر است",
+      "sameSenderReceiver": "شماره تلفن گیرنده نباید با فرستنده یکسان باشد",
+      "notAUser": "شماره تلفن وارد شده عضو رمینو نیست",
+      "noBalance": "موجودی کیف پول شما کافی نیست",
+      "confirmBottomSheet": {
+        "header": "آیا انتقال وجه مورد تایید می\u200Cباشد؟",
+        "recipientName": "نام گیرنده",
+        "recipientPhone": "شماره تلفن گیرنده",
+        "amount": "مبلغ",
+        "wage": "کارمزد",
+        "cancelBtn": "انصراف",
+        "confirmBtn": "تایید نهایی"
+      }
+    }
+  },
+  "Settings": {
+    "header": "حساب کاربری",
+    "section1": "تنظیمات حساب",
+    "verification": "احراز هویت",
+    "accManagement": "مدیریت کارت‌ها",
+    "phoneNumbers": "شماره تماس‌های من",
+    "section2": "پشتیبانی",
+    "help": "پشتیبانی",
+    "section3": "زبان",
+    "language": "زبان",
+    "section4": "درباره رمینو",
+    "terms": "قوانین رمینو",
+    "logout": "خروج از حساب کاربری"
+  },
+  "SettingsVerification": {
+    "header": "احراز هویت",
+    "title": "احراز هویت برای",
+    "country1": "ایران",
+    "country2": "ترکیه",
+    "notVerified": "احراز نشده",
+    "underReview": "در حال بررسی ...",
+    "verified": "احراز هویت انجام شده",
+    "failed": "احراز هویت رد شده"
+  },
+  "SettingsCardManagement": {
+    "header": "مدیریت حساب های بانکی",
+    "addNewCard": "افزودن کارت بانکی",
+    "cardNumber": "شماره کارت",
+    "iban": "شماره شبا",
+    "addCard": {
+      "header": "افزودن کارت جدید",
+      "cardNumber": "شماره کارت",
+      "cardNumberError": "شماره کارت وارد شده معتبر نیست. لطفا مجددا تلاش کنید. ",
+      "hint": "حساب بانکی باید به نام صاحب سیمکارت باشد",
+      "confirmBtn": "ادامه"
+    }
+  },
+  "SettingsChangeLanguage": {
+    "header": "زبان",
+    "title": "زبان خود را انتخاب کنید",
+    "text": "زبان مورد نظر خود را برای استفاده از رمینو انتخاب کنید",
+    "lang1": "فارسی",
+    "lang2": "انگلیسی",
+    "lang3": "ترکی"
+  },
+  "ExchangeTransferFillAmount": {
+    "header": "انتقال ارز",
+    "balance": "موجودی",
+    "inputOneLabel": "مبلغی که شما ارسال می‌کنید",
+    "inputTwoLabel": "مبلغی که گیرنده دریافت می‌کند",
+    "hint": "مبلغ انتقال باید بین 500 هزار تومان تا 250 میلیون تومان باشد.",
+    "reportItem1Title": "نرخ تبدیل",
+    "reportItem2Title": "کارمزد خدمات آنلاین",
+    "reportItem1Text": "1 {destination} برابر با {rate} {origin}",
+    "balanceError": "موجودی کافی نیست. لطفا ابتدا کیف پول خود را شارژ کنید.",
+    "button": "ادامه"
+  },
+  "SelectCurrency": {
+    "header": "انتخاب ارز",
+    "search": "نام ارز، نام کشور و ..."
+  },
+  "ExchangeTransferSelectRecipient": {
+    "header": "تبدیل و انتقال",
+    "newTransfer": "انتقال جدید",
+    "search": "نام گیرنده، نام ارز، نام کشور، شماره IBAN",
+    "recent": "مقصدهای اخیر"
+  },
+  "ExchangeTransferRecipientInfoAccount": {
+    "header": "انتقال ارز",
+    "hintBox": "مبلغ انتقال",
+    "inputOneLabel": "شماره IBAN گیرنده را وارد کنید",
+    "inputOnePlaceholder": "TR بدون IBAN شماره",
+    "inputOneHint": "شماره IBAN باید 24 رقم باشد",
+    "inputTwoLabel": "نام و نام خانوادگی گیرنده",
+    "inputTwoHint": "نام و نام خانوادگی گیرنده باید دقیقا مطابق با مدارک هویتی صاحب حساب باشد",
+    "reason": "شرح تراکنش",
+    "selectBox": "علت انتقال را انتخاب کنید",
+    "button": "ادامه"
+  },
+  "TransactionDescriptions": {
+    "header": "شرح تراکنش",
+    "0": "واریز حقوق",
+    "1": "امور بیمه خدمات",
+    "2": "امور درمانی",
+    "3": "امور سرمایه‌گذاری و بورس",
+    "4": "امور ارزی در چارچوب مقررات",
+    "5": "پرداخت قرض و تادیه دیون",
+    "6": "امور بازنشستگی",
+    "7": "معاملات اموال منقول",
+    "8": "معاملات اموال غیر منقول",
+    "9": "مدیریت نقدینگی",
+    "10": "عوارض گمرکی",
+    "11": "تسویه مالی",
+    "12": "تسهیلات و تعهدات",
+    "13": "سایر خدمات دولتی",
+    "14": "تودیع وثیقه ",
+    "15": "هزینه عمومی و امور روزمره",
+    "16": "کمک‌های خیریه",
+    "17": "خرید کالا",
+    "18": "خرید خدمات"
+  },
+  "ExchangeTransferOtpConfirm": {
+    "header": "انتقال ارز",
+    "title": "کد تایید را وارد کنید",
+    "text": "کد ارسال شده به شماره تلفن همراه {phone} را وارد کنید",
+    "otpError": "کد وارد شده نامعتبر است",
+    "resend": "ارسال مجدد",
+    "resendCode": "ارسال مجدد کد تا {countdown} دیگر",
+    "submitButton": "تایید و ادامه",
+    "cancelButton": "انصراف"
+  },
+  "ExchangeTransferFinalConfirm": {
+    "header": "انتقال ارز",
+    "hintBox": "مبلغ انتقال",
+    "recipient": "اطلاعات گیرنده",
+    "reason": "شرح تراکنش",
+    "bank": "بانک مقصد",
+    "paidAmount": "مبلغ ارسالی",
+    "receivedAmount": "مبلغ دریافتی",
+    "wage": "کارمزد خدمات آنلاین",
+    "confirmButton": "تایید نهایی",
+    "confirmAndPayButton": "پرداخت و تایید نهایی",
+    "cancelButton": "انصراف",
+    "WalletAmountDifferenceComponent": {
+      "balance": "موجودی حساب رمینو شما",
+      "balanceError": "موجودی کافی نیست",
+      "pay": "مبلغ قابل پرداخت"
+    }
+  },
+  "TransactionReceipt": {
+    "transactionStatus": {
+      "success": "تراکنش موفق",
+      "pending": "در حال انجام",
+      "failed": "تراکنش ناموفق"
+    },
+    "transferToAccount": {
+      "header": "تبدیل و انتقال",
+      "followUpStep1": "ثبت درخواست",
+      "followUpStep2": "پرداخت مبلغ ریال",
+      "followUpStep3": "تبدیل ریال به لیر",
+      "followUpStep4": "واریز لیر به حساب مقصد",
+      "transactionDetails": {
+        "header": "جزئیات تراکنش",
+        "status": "وضعیت تراکنش",
+        "amount": "مبلغ ارسالی",
+        "wage": "کارمزد",
+        "convertedAmount": "مبلغ پس از کسر کارمزد",
+        "receivingAmount": "مبلغ دریافتی",
+        "rate": "نرخ تبدیل ارز",
+        "desc": "شرح تراکنش",
+        "sentToBank": "مبلغ دریافت شده در ترکیه",
+        "bank": "ZiraatBank Turkey",
+        "referenceNum": "کد رهگیری",
+        "accType": "نوع دریافت کننده",
+        "personal": "حقیقی",
+        "swift": "کد سوئیفت (SWIFT / BIC)",
+        "iban": "شماره IBAN",
+        "downloadBtn": "دانلود رسید PDF"
+      }
+    },
+    "deposit": {
+      "header": "افزایش موجودی",
+      "followUpStep1": "ثبت درخواست",
+      "followUpStep2": "پرداخت وجه",
+      "followUpStep3": "افزایش موجودی",
+      "transactionDetails": {
+        "header": "جزئیات تراکنش",
+        "status": "وضعیت تراکنش",
+        "amount": "مبلغ واریزی",
+        "wage": "کارمزد",
+        "depositAmount": "مبلغ پس از کسر کارمزد",
+        "desc": "شرح تراکنش",
+        "bank": "بانک {bankName}",
+        "accType": "نوع حساب",
+        "personal": "حقیقی",
+        "accOwner": "نام صاحب حساب",
+        "cardNumber": "پرداخت از کارت",
+        "referenceNum": "کد رهگیری",
+        "time": "زمان",
+        "description": "توضیحات"
+      }
+    },
+    "p2p": {
+      "header": "انتقال به کیف پول",
+      "followUpStep1": "ثبت درخواست",
+      "followUpStep2": "کسر مبلغ از کیف پول شما",
+      "followUpStep3": "واریز به کیف\u200Cپول مقصد  ",
+      "transactionDetails": {
+        "header": "جزئیات تراکنش",
+        "status": "وضعیت تراکنش",
+        "amount": "مبلغ",
+        "desc": "شرح تراکنش",
+        "wallet": "کیف پول رمینو",
+        "walletType": "نوع کیف پول",
+        "personal": "حقیقی",
+        "accOwner": "نام صاحب کیف پول",
+        "withdrawTo": "واریز به کیف",
+        "time": "زمان",
+        "description": "توضیحات"
+      }
+    },
+    "withdraw": {
+      "header": "برداشت از کیف پول",
+      "followUpStep1": "ثبت درخواست",
+      "followUpStep2": "تایید پرداخت",
+      "followUpStep3": "واریز به حساب بانکی شما",
+      "transactionDetails": {
+        "header": "جزئیات تراکنش",
+        "status": "وضعیت تراکنش",
+        "amount": "مبلغ ارسالی",
+        "wage": "کارمزد",
+        "receivingAmount": "مبلغ پس از کسر کارمزد",
+        "desc": "شرح تراکنش",
+        "accType": "نوع حساب",
+        "personal": "حقیقی",
+        "accOwner": "نام صاحب حساب",
+        "iban": "شماره شبا",
+        "referenceNum": "کد رهگیری",
+        "time": "زمان",
+        "description": "توضیحات"
+      }
+    },
+    "followUpEstTime": "زمان",
+    "followUp": "رهگیری",
+    "details": "جزئیات تراکنش",
+    "id": "شناسه درخواست",
+    "share": "اشتراک گذاری",
+    "save": "ذخیره"
+  },
+  "Convert": {
+    "header": "تبدیل ارز",
+    "fillAmount": {
+      "originInputLabel": "تبدیل",
+      "walletBalance": "موجودی کیف پول شما {balance} است",
+      "conversionWage": "کارمزد تبدیل",
+      "convertedAmount": "مقدار قابل تبدیل",
+      "rate": "نرخ تبدیل لحظه‌ای",
+      "destinationInputLabel": "به",
+      "button": "تبدیل {origin} به {destination}"
+    },
+    "confirm": {
+      "convert": "تبدیل",
+      "to": "به",
+      "rate": "قیمت {destination}",
+      "paid": "مبلغ پرداختی",
+      "conversionWage": "کارمزد تبدیل",
+      "got": "مبلغ دریافتی",
+      "button": "تایید و تبدیل"
+    }
+  },
+  "Services": {
+    "header": "خدمات",
+    "title": "منتظر خبر‌های خوب باشید.",
+    "text": "به زودی خدمات پرداختی جدید به رمینو اضافه خواهد شد."
+  },
+  "ManagePhoneNumbers": {
+    "header": "شماره تماس‌های من",
+    "active": "شماره فعال",
+    "activeDesc": "کد تایید برای ورود و انجام تراکنش به این شماره ارسال می‌شود.",
+    "changeNumber": "تغییر شماره",
+    "setAsActive": "انتخاب به عنوان شماره فعال",
+    "other": "شماره‌های دیگر من",
+    "noOther": "در حال حاضر شماره تماس دیگری ندارید",
+    "button": "افزودن شماره تماس",
+    "phoneAddedBottomSheet": {
+      "header": "شماره تماس اضافه شد",
+      "text": "شماره {phone} با موفقیت اضافه شد.",
+      "button": "فهمیدم"
+    },
+    "SelectCountry": {
+      "title": "کشور",
+      "country1": "ایران",
+      "country2": "ترکیه"
+    },
+    "AddPhoneNumber": {
+      "header": "افزودن شماره تماس",
+      "inputLabel": "شماره تلفن همراه خود را وارد کنید",
+      "inputHint": "شماره تلفن همراه نامعتبر است",
+      "button": "ارسال کد تایید",
+      "OtpConfirm": {
+        "title": "کد تایید را وارد کنید",
+        "text": "کد تایید به شماره تلفن همراه {phone} پیامک شد",
+        "otpError": "کد وارد شده نامعتبر است",
+        "resend": "ارسال مجدد",
+        "resendCode": "ارسال مجدد کد تا {countdown} دیگر",
+        "button": "تایید"
+      }
+    }
+  },
+  "Withdraw": {
+    "fillAmount": {
+      "header": "برداشت از کیف پول",
+      "wallet": "کیف پول",
+      "balance": "موجودی",
+      "inputPlaceholder": "مبلغ برداشت",
+      "amountHint": "حداقل مبلغ قابل برداشت باید 100,000 ریال باشد",
+      "confirmBtn": "تائید و ادامه",
+      "totalBalanceBtn": "برداشت تمام موجودی"
+    },
+    "chooseCard": {
+      "header": "برداشت از کیف پول",
+      "inputTitle": "کارت بانکی خود را انتخاب کنید",
+      "inputPlaceholder": "شماره کارت 16 رقمی",
+      "youGet": "دریافتی شما",
+      "confirm": "تایید",
+      "chooseCard": "انتخاب کارت بانکی",
+      "addNewCard": "افزودن کارت بانکی جدید",
+      "deleteCardHeader": "آیا می\u200Cخواهید این کارت را حذف کنید؟",
+      "cancelDelete": "انصراف",
+      "confirmDelete": "بله، حذف شود",
+      "confirmBottomSheet": {
+        "header": "برداشت از کیف پول",
+        "withdrawTo": "واریز به کارت {owner}",
+        "time": "مبلغ حداکثر تا ساعت 18:45 روز کاری بعد به حساب شما واریز میشود",
+        "amount": "مبلغ",
+        "wage": "کارمزد",
+        "confirmBtn": "تایید و برداشت",
+        "editBtn": "ویرایش"
+      }
+    }
+  }
+}

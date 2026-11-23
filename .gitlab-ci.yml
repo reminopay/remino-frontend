@@ -1,0 +1,76 @@
+workflow:
+  rules:
+    - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
+    - if: $CI_COMMIT_BRANCH == 'main'
+    - if: $CI_COMMIT_BRANCH == 'development'
+
+stages:
+  - publish
+  - staging
+  - deploy
+
+variables:
+  DOCKER_IMAGE_NAME: ${DOCKER_IMAGE_NAME}
+  TAG_LATEST: ${CI_REGISTRY}/${CI_REGISTRY_PROJECT}/$DOCKER_IMAGE_NAME:latest
+  TAG_COMMIT: ${CI_REGISTRY}/${CI_REGISTRY_PROJECT}/$DOCKER_IMAGE_NAME:$CI_COMMIT_SHORT_SHA
+  APP_NAME: $FRONT_APP_NAME
+
+publish:
+  rules:
+    - if: $CI_COMMIT_BRANCH == 'main'
+    - if: $CI_COMMIT_BRANCH == 'development'
+  stage: publish
+  services:
+    - docker.arvancloud.ir/docker:dind
+  script:
+    - docker build -t $TAG_COMMIT -t $TAG_LATEST .
+    - echo ${CI_REGISTRY_PASSWORD} | docker login -u ${CI_REGISTRY_USER} --password-stdin ${CI_REGISTRY}
+    - docker push $TAG_COMMIT
+    - docker push $TAG_LATEST
+  when: manual
+
+staging:
+  rules:
+    - if: $CI_COMMIT_BRANCH == 'development'
+  image: docker.arvancloud.ir/alpine:latest
+  stage: staging
+  before_script:
+    - chmod og= $CI_DEPLOY_KEY
+    - apk update && apk add openssh-client
+  script:
+    - scp -i $CI_DEPLOY_KEY -P 5022 -o StrictHostKeyChecking=no docker-compose-staging.yml $CI_SERVER_USER@$CI_SERVER_IP:/home/$CI_SERVER_USER/frontend-docker-compose.yml
+    - ssh -i $CI_DEPLOY_KEY -p 5022 -o StrictHostKeyChecking=no $CI_SERVER_USER@$CI_SERVER_IP "echo ${CI_REGISTRY_PASSWORD} | docker login -u ${CI_REGISTRY_USER} --password-stdin ${CI_REGISTRY}"
+    - ssh -i $CI_DEPLOY_KEY -p 5022 -o StrictHostKeyChecking=no $CI_SERVER_USER@$CI_SERVER_IP "docker pull $TAG_COMMIT"
+    - ssh -i $CI_DEPLOY_KEY -p 5022 -o StrictHostKeyChecking=no $CI_SERVER_USER@$CI_SERVER_IP "docker ps -q -f name=$APP_NAME | xargs -r docker rm -f"
+    - ssh -i $CI_DEPLOY_KEY -p 5022 -o StrictHostKeyChecking=no $CI_SERVER_USER@$CI_SERVER_IP "
+      export TAG_COMMIT=$TAG_COMMIT &&
+      docker compose -f /home/$CI_SERVER_USER/frontend-docker-compose.yml up -d"
+  environment:
+    name: staging
+    url: https://dev-app.remichange.ir
+  when: manual
+  dependencies:
+    - publish
+
+deploy:
+  rules:
+    - if: $CI_COMMIT_BRANCH == 'main'
+  image: docker.arvancloud.ir/alpine:latest
+  stage: deploy
+  before_script:
+    - chmod og= $CI_DEPLOY_KEY
+    - apk update && apk add openssh-client
+  script:
+    - scp -i $CI_DEPLOY_KEY -P 5022 -o StrictHostKeyChecking=no docker-compose.yml $CI_SERVER_USER@$CI_SERVER_IP:/home/$CI_SERVER_USER/docker-compose.yml
+    - ssh -i $CI_DEPLOY_KEY -p 5022 -o StrictHostKeyChecking=no $CI_SERVER_USER@$CI_SERVER_IP "echo ${CI_REGISTRY_PASSWORD} | docker login -u ${CI_REGISTRY_USER} --password-stdin ${CI_REGISTRY}"
+    - ssh -i $CI_DEPLOY_KEY -p 5022 -o StrictHostKeyChecking=no $CI_SERVER_USER@$CI_SERVER_IP "docker pull $TAG_COMMIT"
+    - ssh -i $CI_DEPLOY_KEY -p 5022 -o StrictHostKeyChecking=no $CI_SERVER_USER@$CI_SERVER_IP "docker ps -q -f name=$APP_NAME | xargs -r docker rm -f"
+    - ssh -i $CI_DEPLOY_KEY -p 5022 -o StrictHostKeyChecking=no $CI_SERVER_USER@$CI_SERVER_IP "
+      export TAG_COMMIT=$TAG_COMMIT &&
+      docker compose -f /home/$CI_SERVER_USER/docker-compose.yml up -d"
+  environment:
+    name: production
+    url: https://app.remino.ir
+  when: manual
+  dependencies:
+    - publish
