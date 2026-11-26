@@ -1,8 +1,11 @@
 services:
   app:
+    build:
+      context: .
+      dockerfile: Dockerfile
     container_name: app
     hostname: app
-    image: hub.hamdocker.ir/library/node:18-alpine
+#    image: hub.hamdocker.ir/library/node:18-alpine
     expose:
       - "3000"
     restart: always
