@@ -1,4 +1,4 @@
-FROM docker.arvancloud.ir/node:18-alpine AS base
+FROM hub.hamdocker.ir/library/node:18-alpine AS base
 
 # Install dependencies only when needed
 FROM base AS deps
